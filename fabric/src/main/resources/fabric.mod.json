@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "endofdimensions",
+  "version": "${version}",
+  "name": "End of Dimensions",
+  "description": "Tell laz to ask jonah for a description",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-end-of-dimensions"
+  },
+  "license": "Insert License Here",
+  "icon": "assets/endofdimensions/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.endofdimensions.fabric.EndOfDimensionsFabric"
+    ]
+  },
+  "mixins": [
+    "endofdimensions.mixins.json",
+    "endofdimensions-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.20.1",
+    "architectury": ">=9.1.12"
+  }
+}

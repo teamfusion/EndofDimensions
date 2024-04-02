@@ -1,0 +1,36 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "Insert License Here"
+
+[[mods]]
+modId = "endofdimensions"
+version = "${version}"
+displayName = "End of Dimensions"
+authors = "TeamFusion"
+description = '''
+What does a random MultiTeam developer do in here? Like, wtf... wait, LAZ? WHAT? OMG! I thought you were dead! im glad you're finally doing something you lazy piece of....
+Also, alert jonah_fuses to COMMAND laz to ctrl+c then ctrl+v the actual description here lmao
+'''
+#logoFile = ""
+
+[[dependencies.endofdimensions]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.endofdimensions]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.endofdimensions]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.1.12,)"
+ordering = "AFTER"
+side = "BOTH"
